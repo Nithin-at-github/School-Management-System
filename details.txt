@@ -1,0 +1,40 @@
+ADMIN DETAILS
+
+Username : admin
+Password : Admin123
+
+email    : schoolsms110@gmail.com
+password : Admin123@SMS
+
+TEACHERS DETAILS
+
+Username : Nithin JK           Username : Malini Nair        Username : Hari Prasad         Username : Bindhu Cherian
+Password : NJK@123             Password : Malini123          Password : Hari123             Password : Bindhu123
+
+Username : Thomas Mani         Username : Juliet Thomas      Username : Rajeev Jacob        Username : George Mathew 
+Password : Thomas123           Password : Juliet123          Password : Rajeev123           Password : George123
+
+Username : Susan George        Username : Lucy Jacob 
+Password : Susan123            Password : Lucy123 
+
+
+STUDENT DETAILS
+
+Username : Nishanth J K        Username : Nirmal Biju        Username : Gokul Mahendran     Username : Navya Pradeep                  
+Password : Nishu123           Password : Nirmal123          Password : Gokul123            Password : Navya123
+
+Username : Ansa Kuriakose      Username : Nirmal Biju        Username : Gokul Mahendran     Username : Navya Pradeep                  
+Password : Ansa123             Password : Nirmal123          Password : Gokul123            Password : Navya123
+
+Username : Stalin George       Username : Sanath P Sibi      Username : Johan Joseph        Username : Navya Pradeep                  
+Password : Stalin123           Password : Sanath123          Password : Johan123            Password : Navya123
+
+
+
+PARENT DETAILS
+
+Username : Jaimon Kurian       Username : Mahendhran        Username : Biju               Username : Pradeep Nair
+Password : Jaimon123           Password : Mahi123           Password : Biju123            Password : Pradeep123
+
+Username : Kuriakose M         Username : George Thomas     Username : Sibi Cheriyan      Username : Joseph Chacko
+Password : Kuriakose123        Password : George123         Password : Sibi123            Password : Joseph123

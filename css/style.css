@@ -1,0 +1,560 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Franklin Gothic;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: #0a0236;
+	height: 18vh;
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	color: #fff;
+}
+
+.logo img{
+	float: left;
+	width: 50px;
+	height: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 25px
+}
+
+ul li{
+	display: table-cell;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main{
+	float: right;
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+
+ul li ul li {
+	display: none;
+}
+
+ul li:hover ul li {
+	display: block;
+}
+
+.sub {
+	background-image: linear-gradient(rgba(0,0,0.5,0.5),rgba(0,0,0,0.5)),url(../img/school.jpg);
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 250%;
+}
+
+.up {
+	float: right;
+	position: fixed;
+}
+
+.adm {
+	height: 101vh;
+	background-image: linear-gradient(rgba(0,0,0.5,0.5),rgba(0,0,0,0.5)),url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.adm h1{
+	color: white;
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
+}
+
+.adm h4{
+	color: white;
+	font-family: 'Comic Sans MS';
+}
+
+.signup {
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	background: url("img/bg1.png");
+	position: relative;
+	top: 33%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+}
+
+.signup h1{
+  margin-top: 100px;
+  font-family: 'Ink Free';
+  color: #fff;
+  font-size: 40px;
+}
+
+.signup input{
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "Lucida Bright";
+}
+
+.textb{
+  margin: 20px 0;
+  background: rgba(187,187,187,1);
+  border-radius: 6px;
+}
+
+.signup-btn{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #487eb0;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.signup-btn:hover{
+  transform: scale(0.96);
+}
+
+.signup a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "montserrat",sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  transition: 0.8s;
+  display: block;
+}
+.signup a:hover{
+  background: rgba(0,0,0,.3);
+}
+
+.ser {
+    background-color: #06012e;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.ser h1{
+	color: white;
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 210px 210px 10px;
+	grid-template-areas: "image" "text";
+
+	font-family: roboto;
+	border-radius: 18px;
+	background: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	text-align: center;
+
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.card-image1 {
+	grid-area: image;
+	background: url("../img/adm.jpg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: contain;
+}
+
+.card-image2 {
+	grid-area: image;
+	background: url("../img/fee.jpg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+}
+
+.card-image3 {
+	grid-area: image;
+	background: url("../img/att.jpg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+}
+
+.card-image4 {
+	grid-area: image;
+	background: url("../img/lib.jpg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+}
+
+.card-image5 {
+	grid-area: image;
+	background: url("../img/exm.jpg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+}
+
+.card-image6 {
+	grid-area: image;
+	background: url("../img/sal.jpg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+}
+
+.card-image7 {
+	grid-area: image;
+	background: url("../img/leave.jpg");
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-size: cover;
+}
+
+.card-text {
+	grid-area: text;
+	margin: 25px;
+}
+
+.card-text p{
+	color: grey;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.card-text h2{
+	margin-top: 0px;
+	font-size: 28px;
+}
+
+.gall {
+	height: 115vh;
+	background-size: cover;
+	background-position: center;
+	background-color: #06012e;
+}
+
+.gall h1{
+	color: white;
+	font-size: 35px;
+	font-family: 'Comic Sans MS';
+}
+
+.responsive{
+	padding: 0 6px;
+	float: left;
+	width: 25%;
+	height: all;
+}
+
+.gal {
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.gal img{
+	width: 100%;
+	height: auto;
+	transition: .5s all ease-in-out;
+}
+
+.gal:hover img{
+	transform: scale(1.7);
+}
+
+.abt {
+	height: 40vh;
+	background-color: #06012e;
+}
+
+.abt h1{
+	color: white;
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
+}
+
+.ab {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm a{
+  display: inline-block;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #6ab04c;
+  margin: 0 16px;
+  transition: .4s linear;
+  position: relative;
+}
+
+.sm a::before, .sm a::after{
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: .4s linear;
+}
+
+.sm a:hover{
+  transform: scale(.8);
+}
+
+.sm a:hover::before{
+  border-left: 4px solid;
+  border-right: 4px solid;
+  transform: skewX(20deg);
+}
+
+.sm a:hover::after{
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  transform: skewY(-20deg);
+}
+
+@media only screen and (max-width: 1200px){
+    header h1{
+		font-size: 200%
+	}
+	.logo img{
+		width: 50px;
+	}
+
+	.sub {
+		height: 90vh;
+	}
+	.title {
+	    top: 50%;
+	    left: 50%;
+    }
+	.title h1{
+		font-size: 250%
+	}
+
+	.gall{
+		height: 110vh;
+	} 
+
+	.responsive{
+		width: 50%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 769px){
+    header h1{
+		font-size: 200%
+	}
+	.logo img{
+		width: 50px;
+	}
+
+	.sub {
+		height: 90vh;
+	}
+	.title {
+	    top: 50%;
+	    left: 50%;
+    }
+	.title h1{
+		font-size: 250%
+	}
+
+	.gall{
+		height: 100vh;
+	} 
+
+	.responsive{
+		width: 30%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 668px){
+    header h1{
+		font-size: 200%
+	}
+	.logo img{
+		width: 50px;
+	}
+
+	.sub {
+		height: 90vh;
+	}
+	.title {
+	    top: 50%;
+	    left: 50%;
+    }
+	.title h1{
+		font-size: 250%
+	}
+
+	.gall{
+		height: 120vh;
+	} 
+
+	.responsive{
+		width: 30%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 568px){
+	header h1{
+		font-size: 120%
+	}
+	.logo img{
+		width: 30px;
+	}
+
+    .sub {
+		height: 50vh;
+	}
+	.title {
+	    top: 30%;
+	    left: 50%;
+	 }   
+	.title h1{
+		font-size: 150%
+	}
+
+	.gall{
+		height: 230vh;
+	}
+
+	.responsive{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 414px){
+    header h1{
+		font-size: 200%
+	}
+	.logo img{
+		width: 50px;
+	}
+
+	.sub {
+		height: 90vh;
+	}
+	.title {
+	    top: 50%;
+	    left: 50%;
+    }
+	.title h1{
+		font-size: 250%
+	}
+
+	.gall{
+		height: 170vh;
+	} 
+
+	.responsive{
+		width: 50%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 320px){
+    header h1{
+		font-size: 200%
+	}
+	.logo img{
+		width: 50px;
+	}
+
+	.sub {
+		height: 90vh;
+	}
+	.title {
+	    top: 50%;
+	    left: 50%;
+    }
+	.title h1{
+		font-size: 250%
+	}
+
+	.gall{
+		height: 140vh;
+	} 
+
+	.responsive{
+		width: 50%;
+		margin: 6px 0;
+	}
+}
+
