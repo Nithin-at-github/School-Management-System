@@ -3,8 +3,6 @@ ADMIN DETAILS
 Username : admin
 Password : Admin123
 
-email    : schoolsms110@gmail.com
-password : Admin123@SMS
 
 TEACHERS DETAILS
 
