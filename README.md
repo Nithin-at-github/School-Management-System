@@ -6,41 +6,6 @@ This application is fully containerized using **Docker** and **Docker Compose**,
 
 ---
 
-## 📸 Screenshots
-
-> [!TIP]
-> Add screenshots of your running dashboards here to showcase the system.
-
-### 🛡️ Administrator Dashboard
-*Add a screenshot showing the admin metrics cards (Total Students, Teachers, Parents, and Revenue).*
-<!-- SCREENSHOT PLACEHOLDER: admin_dashboard.png -->
-```
-[Insert Screenshot: admin_dashboard.png]
-```
-
-### 👨‍🏫 Teacher Dashboard
-*Add a screenshot showing the class management and attendance marking panel.*
-<!-- SCREENSHOT PLACEHOLDER: teacher_dashboard.png -->
-```
-[Insert Screenshot: teacher_dashboard.png]
-```
-
-### 🎓 Student Portal & Online Examination
-*Add a screenshot showing the active quiz/exam view or student class schedules.*
-<!-- SCREENSHOT PLACEHOLDER: student_dashboard.png -->
-```
-[Insert Screenshot: student_dashboard.png]
-```
-
-### 👪 Parent Portal
-*Add a screenshot showing the fee payment module or student performance tracker.*
-<!-- SCREENSHOT PLACEHOLDER: parent_dashboard.png -->
-```
-[Insert Screenshot: parent_dashboard.png]
-```
-
----
-
 ## ✨ Features by Role
 
 ### 1. 🛡️ Administrator Portal
@@ -71,6 +36,39 @@ This application is fully containerized using **Docker** and **Docker Compose**,
 *   **Feedback Channel**: File complaints or feedback directly with administrators and class teachers.
 
 ---
+
+
+## 📸 Screenshots
+
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-35-41" src="https://github.com/user-attachments/assets/4599bd4d-8dfc-46f2-b78d-39ffe4ef8a82" />
+
+
+### 🛡️ Administrator Dashboard
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-38-12" src="https://github.com/user-attachments/assets/40407ac0-a630-4ddb-a178-882925db775c" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-39-09" src="https://github.com/user-attachments/assets/807c2c61-e959-4776-954a-47564e2a78ba" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-39-49" src="https://github.com/user-attachments/assets/3046dccc-162b-46df-a822-2cf0a58bc144" />
+
+
+### 👨‍🏫 Teacher Dashboard
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-40-50" src="https://github.com/user-attachments/assets/19118043-c3c3-4b20-9710-6b605e09a5ac" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-41-25" src="https://github.com/user-attachments/assets/280dd2e5-ed85-4803-a3e9-321dbded6fc9" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-41-44" src="https://github.com/user-attachments/assets/779a068a-edbd-4b5b-adde-0191b7d8278c" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-41-52" src="https://github.com/user-attachments/assets/f95dc564-977e-48eb-9f31-7dab9182a57e" />
+
+
+### 🎓 Student Portal & Online Examination
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-42-24" src="https://github.com/user-attachments/assets/38902815-4723-4274-a75e-6503f71e94b3" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-42-39" src="https://github.com/user-attachments/assets/1e73686f-93c5-4233-abab-533a965e0b5a" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-42-53" src="https://github.com/user-attachments/assets/4f073648-4705-4680-ab4c-7ad0b4ab1fce" />
+
+
+### 👪 Parent Portal
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-44-12" src="https://github.com/user-attachments/assets/450ed388-127b-49d1-aea8-1ab90f23bc6f" />
+<img width="1920" height="1200" alt="Screenshot from 2026-06-27 13-44-25" src="https://github.com/user-attachments/assets/1499b561-f2cc-401b-9b5d-6aadb95d3d49" />
+
+
+---
+
 
 ## 🚀 Getting Started (Docker Setup)
 
