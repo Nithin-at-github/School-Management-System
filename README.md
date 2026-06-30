@@ -83,6 +83,7 @@ This command builds the custom PHP container (installing the required `mysqli` e
 
 ### 2. Access the Application
 *   **Web Port**: [http://localhost:8080](http://localhost:8080)
+*   **phpMyAdmin**: [http://localhost:8081](http://localhost:8081) (Auto-logs in as `root`)
 *   **Database Port**: `localhost:3307`
 
 ### 3. Stop the Application

@@ -31,5 +31,18 @@ services:
       - ./sms.sql:/docker-entrypoint-initdb.d/sms.sql
     restart: always
 
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: sms_phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      - PMA_HOST=db
+      - PMA_USER=root
+      - PMA_PASSWORD=rootpassword
+    depends_on:
+      - db
+    restart: always
+
 volumes:
   sms_mysql_data:
